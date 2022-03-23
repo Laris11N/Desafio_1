@@ -1,8 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+ using System;
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
-  </PropertyGroup>
+ namespace Desafio_01
+ {
+ 		class Program
+ 		{
 
-</Project>
+        static void Main(string[] args)
+        {
+            
+            Console.WriteLine("HELLO WORLD!");
+            Console.ReadLine();
+
+        }
+    }
+}
